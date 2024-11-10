@@ -3,7 +3,7 @@
 /* Css Styles                        */
 
 /*---------------------------------- */
-@media (max-width: 992px) {
+@@media (max-width: 992px) {
     .container.remove_container {
         max-width: 100%!important;
     }
@@ -16,7 +16,7 @@ div.stickyContent {
     position: sticky!important;
     top: 45px!important;
 }
-@media (min-width: 992px) {
+@@media (min-width: 992px) {
     div.stickyDiv {
         position: absolute !important;
         top: 0;
@@ -311,7 +311,7 @@ h6 {
     text-align: center;
 }
 
-@keyframes spinner {
+@@keyframes spinner {
     to {
         transform: rotate(360deg);
     }
@@ -634,7 +634,7 @@ ul.timeline {
 
 /*------------------------ 17 Responsive ------------------------*/
 
-@media (max-width: 991px) {
+@@media (max-width: 991px) {
     .wrapper.top_60 {
         margin-top: 30px;
     }
@@ -661,7 +661,7 @@ ul.timeline {
     }
 }
 
-@media screen and (max-width: 991px) and (min-width: 576px) {
+@@media screen and (max-width: 991px) and (min-width: 576px) {
     .profile .name {
         font-size: 20px;
         margin-top: 11px;
@@ -674,7 +674,7 @@ ul.timeline {
     }
 }
 
-@media (max-width: 321px) {
+@@media (max-width: 321px) {
     .timeline li .line-title {
         line-height: 20px;
     }
